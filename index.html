@@ -1,0 +1,41 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Mortgage Calculator</title>
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<h1>Mortgage Calculator</h1>
+
+		<div id="allInputs">
+		<div id="small">
+		<label for="mortgageLoanBalanceInput">Loan Balance</label><br>
+		<input type="text" id="mortgageLoanBalanceInput"><br><br>
+
+		<label for="aprInput>">Interest Rate (%)</label><br>
+		<input type="text" id="aprInput"><br><br>
+		</div>
+
+<div id="secondSmall">
+		<label for="loanTermInput">Loan Term (in years)</label><br>
+		<input type="text" id="loanTermInput"><br><br>
+
+		<label for="period">Period</label><br>
+		<select id="period">
+			<option id="monthly" value="12">Monthly</option>
+			<option id="biMonthly" value="6">BiMonthly</option>
+		</select><br><br><br>
+		</div>
+
+		<button id="calculateButton">Calculate</button>
+		</div>
+
+
+
+		<p id="textGoesHere"></p>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="index.js"></script>
+	</body>
+<html>
